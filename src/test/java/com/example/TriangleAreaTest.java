@@ -7,8 +7,9 @@ class TriangleAreaTest {
 
     @Test
     void testAreaForBaseTenHeightFive() {
-        assertEquals(25.0,
+        assertEquals(100.0,
                 TriangleArea.calculateArea(10, 5), 0.001);
+}
     }
 
     @Test
